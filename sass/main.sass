@@ -1,0 +1,36 @@
+//variables
+$main-color: #f9f9f9
+$background-color: #272727
+$secondary-color: #e50914
+$title-font: "Lato", "Roboto", sans-serif
+$main-font: "Roboto", sans-serif
+
+//removing unnecessary padding
+@import "reset"
+
+
+body
+  background-color: $background-color
+  color: $main-color
+
+header
+  background-color: $secondary-color
+  padding: 2em 0
+  display: inline-block
+  width: 100%
+  .header__title
+    font-family: $title-font
+    text-align: center
+  .title--size-big
+    font-size: 55px
+  .title--size-medium
+    font-size: 30px
+
+
+
+//screen sizes
+@media screen and (min-width: 668px)
+  @import "desktop"
+
+@media screen and (max-width: 667px)
+  @import "mobile"
