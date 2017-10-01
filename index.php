@@ -17,9 +17,12 @@
 </header>
 <main>
 
-    <h2>MaanRoosVis</h2>
-    <h3>Project The Wall</h3>
-    <a href="https://github.com/RickHinfelaar/TheWallMaanRoosVis">Github link</a>
+    <article>
+        <h2 class="article__title title--size-big">MaanRoosVis</h2>
+        <h3 class="article__title title--size-medium">Project The Wall</h3>
+        <a href="https://github.com/RickHinfelaar/TheWallMaanRoosVis"
+           class="article__link link--selected-none">Github link</a>
+    </article>
 
 </main>
 <footer>
