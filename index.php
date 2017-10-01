@@ -24,6 +24,30 @@
     <h1 class="main__title">Projects</h1>
     <div class="wrapper">
         <article class="article">
+            <h2 class="article__title title--size-big">Fanstille</h2>
+            <h4 class="article__title title--size-medium">Project MyBand</h4>
+            <img src="images/Fanstille-small.PNG"
+                 class="article__image image--from-fanstille" alt="Fanstille logo">
+            <a href="https://github.com/RickHinfelaar/TheWallMaanRoosVis"
+               class="article__link link--selected-none">Github link</a>
+        </article>
+        <article class="article">
+            <h2 class="article__title title--size-big">MaanRoosVis</h2>
+            <h4 class="article__title title--size-medium">Project The Wall</h4>
+            <img src="images/MaanRoosVis-small.PNG"
+                 class="article__image image--from-maanroosvis" alt="MaanRoosVis logo">
+            <a href="https://github.com/RickHinfelaar/TheWallMaanRoosVis"
+               class="article__link link--selected-none">Github link</a>
+        </article>
+        <article class="article">
+            <h2 class="article__title title--size-big">MaanRoosVis</h2>
+            <h4 class="article__title title--size-medium">Project The Wall</h4>
+            <img src="images/FotoGallerij-small.PNG"
+                 class="article__image image--from-maanroosvis" alt="MaanRoosVis logo">
+            <a href="https://github.com/RickHinfelaar/TheWallMaanRoosVis"
+               class="article__link link--selected-none">Github link</a>
+        </article>
+        <article class="article">
             <h2 class="article__title title--size-big">MaanRoosVis</h2>
             <h4 class="article__title title--size-medium">Project The Wall</h4>
             <img src="images/MaanRoosVis-small.PNG"
