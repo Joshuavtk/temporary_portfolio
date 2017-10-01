@@ -1,24 +1,36 @@
 //variables
-$main-color: #f9f9f9
+$text-color: #f9f9f9
+$main-color: rgba(75, 75, 75, 0.8)
 $background-color: #272727
 $secondary-color: #e50914
 $title-font: "Lato", "Roboto", sans-serif
 $main-font: "Roboto", sans-serif
 
+//computer widths
+$max-width: '1200px'
+$medium-width: '992px'
+$min-width: '768px'
+
 //removing unnecessary padding
 @import "reset"
 
+main
+  .main__title
+    display: inline-block
+    border-bottom: $secondary-color 1px solid
+  .wrapper
+    width: 100%
 
 body
   background-color: $background-color
-  color: $main-color
+  color: $text-color
   text-overflow: ellipsis //place at a good spot
-header
+
+.header
   background-color: $secondary-color
   padding: 2em 0
-  display: inline-block
   width: 100%
-  .header__title
+  &__title
     font-family: $title-font
     text-align: center
   .title--size-big
@@ -26,8 +38,11 @@ header
   .title--size-medium
     font-size: 30px
 
-article
-  background-color: $secondary-color
+.article
+  background-color: $main-color
+  box-shadow: $background-color 5px
+  &__title
+    font-family: $title-font
 
 
 //screen sizes
