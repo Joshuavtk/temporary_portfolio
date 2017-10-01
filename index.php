@@ -11,18 +11,23 @@
     <title>Portfolio | Joshua van 't Kruis</title>
 </head>
 <body>
+
 <header class="header">
     <h1 class="header__title title--size-big">Joshua van 't Kruis</h1>
     <h3 class="header__title title--size-medium">Media developer</h3>
 </header>
 <main>
-    <div class=""></div>
+    <div class="main__introduction">
+        <p></p>
+    </div>
 
     <h1 class="main__title">Projects</h1>
     <div class="wrapper">
         <article class="article">
             <h2 class="article__title title--size-big">MaanRoosVis</h2>
-            <h3 class="article__title title--size-medium">Project The Wall</h3>
+            <h4 class="article__title title--size-medium">Project The Wall</h4>
+            <img src="images/MaanRoosVis-small.PNG"
+                 class="article__image image--from-maanroosvis" alt="MaanRoosVis logo">
             <a href="https://github.com/RickHinfelaar/TheWallMaanRoosVis"
                class="article__link link--selected-none">Github link</a>
         </article>
@@ -30,7 +35,7 @@
 
 </main>
 <footer>
-
+    <p>Copyright © 2017 Joshua van 't Kruis All Rights Reserved. </p>
 </footer>
 </body>
 </html>
