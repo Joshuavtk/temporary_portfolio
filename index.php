@@ -14,7 +14,7 @@
 
 <header class="header">
     <h1 class="header__title title--size-big">Joshua van 't Kruis</h1>
-    <h3 class="header__title title--size-medium">Media developer</h3>
+    <h3 class="header__title title--size-medium">Fullstack developer</h3>
 </header>
 <main>
     <div class="main__introduction">
@@ -29,42 +29,95 @@
             <h4 class="article__title title--size-medium">Project MyBand</h4>
             <img src="images/Fanstille-small.PNG"
                  class="article__image image--from-fanstille" alt="Fanstille logo">
-            <a href="https://github.com/RickHinfelaar/TheWallMaanRoosVis"
-               class="article__link link--selected-none">Github link</a>
         </article>
         <div id="content_fanstille" class="popup">
-            <p>Test</p>
+            <img src="images/Fanstille-large.PNG" alt="website preview Fanstille">
+            <div class="popup__text">
+                <p>Eindproject "MyBand" periode 1.4.<br>
+                    De opdracht was een fan site maken van jouw favoriete band en zoveel mogelijk functionaliteit
+                    toevoegen.<br> Mijn website heeft ook de mogelijkheid om een reactie achter te kunnen laten onder
+                    een
+                    artikel en die van anderen te kunnen bekijken.</p>
+                <div class="popup__buttons">
+                    <a href="https://github.com/Joshuavtk/Fanstille_complete"
+                       class="article__button link--selected-none">Github link</a>
+                    <a href="http://22288.hosts.ma-cloud.nl/bewijzenmap/p1.4/proj/Fanstille/"
+                       class="article__button link--selected-none">Bekijk online</a>
+                </div>
+            </div>
         </div>
-        <article class="article">
+        <article class="article" id="article_maanroosvis">
             <h2 class="article__title title--size-big">MaanRoosVis</h2>
             <h4 class="article__title title--size-medium">Project The Wall</h4>
             <img src="images/MaanRoosVis-small.PNG"
                  class="article__image image--from-maanroosvis" alt="MaanRoosVis logo">
-            <a href="https://github.com/RickHinfelaar/TheWallMaanRoosVis"
-               class="article__link link--selected-none">Github link</a>
         </article>
-        <article class="article">
+        <div id="content_maanroosvis" class="popup">
+            <img src="images/MaanRoosVis-large.PNG" alt="website preview MaanRoosVis">
+            <div class="popup__text">
+                <p>Eindproject "The Wall" periode 1.3.<br>
+                    Dit project is in samenwerking met Rick Hinfelaar gemaakt.
+                    De opdracht was een muur maken van foto's waarbij gebruikers hun eigen foto's toe konden voegen.<br>
+                    Rick kwam met het unieke idee om er een spel van te maken, en toen had ik de hele website
+                    gemaakt.<br>
+                    Bij dit spel zoek je 1 van de 6 plaatjes
+                    die met dezelfde letter begint als je letter die je gekregen hebt.<br> Gebruikers kunnen ook hun
+                    eigen
+                    foto's toevoegen aan dit spel</p>
+                <div class="popup__buttons">
+                    <a href="https://github.com/RickHinfelaar/TheWallMaanRoosVis"
+                       class="article__button link--selected-none">Github link</a>
+                    <a href="http://22288.hosts.ma-cloud.nl/bewijzenmap/p1.4/proj/Fanstille/"
+                       class="article__button link--selected-none">Bekijk online</a>
+                </div>
+            </div>
+        </div>
+        <article class="article" id="article_fotogallerij">
             <h2 class="article__title title--size-big">Foto Gallerij</h2>
             <h4 class="article__title title--size-medium">Front-end opdracht 9</h4>
             <img src="images/FotoGallerij-small.PNG"
-                 class="article__image image--from-maanroosvis" alt="Blizzard logo">
-            <a href="https://github.com/RickHinfelaar/TheWallMaanRoosVis"
-               class="article__link link--selected-none">Github link</a>
+                 class="article__image image--from-maanroosvis" alt="Fotogallerij image">
         </article>
-        <article class="article">
-            <h2 class="article__title title--size-big">MaanRoosVis</h2>
-            <h4 class="article__title title--size-medium">Project The Wall</h4>
-            <img src="images/MaanRoosVis-small.PNG"
-                 class="article__image image--from-maanroosvis" alt="MaanRoosVis logo">
-            <a href="https://github.com/RickHinfelaar/TheWallMaanRoosVis"
-               class="article__link link--selected-none">Github link</a>
+        <div id="content_fotogallerij" class="popup">
+            <img src="images/FotoGallerij-large.PNG" alt="website preview Fotogallerij">
+            <div class="popup__text">
+                <p>Front-end opdracht 9 periode 1.2. <br>
+                    De opdracht was een gallerij maken waar je een lijst met thumbnails ziet en als je op een van de
+                    thumbnails klikt, de foto vergroot word.</p>
+                <div class="popup__buttons">
+                    <a href="https://github.com/Joshuavtk/Gallerij-opdracht"
+                       class="article__button link--selected-none">Github link</a>
+                    <a href="http://22288.hosts.ma-cloud.nl/bewijzenmap/p1.2/fro/opdracht9/"
+                       class="article__button link--selected-none">Bekijk online</a>
+                </div>
+            </div>
+        </div>
+        <article class="article" id="article_hallowereld">
+            <h2 class="article__title title--size-big">Hallo wereld</h2>
+            <h4 class="article__title title--size-medium">Front-end opdracht 4</h4>
+            <img src="images/HalloWereld-small.png"
+                 class="article__image image--from-maanroosvis" alt="Hallo wereld">
         </article>
+        <div id="content_hallowereld" class="popup">
+            <img src="images/HalloWereld-large.PNG" alt="website preview Hallo wereld">
+            <div class="popup__text">
+                <p>Front-end opdracht 4 periode 1.1.<br>
+                    De opdracht was om een website over jezelf te maken. Ik heb gekozen om deze opdracht bij mijn
+                    portfolio te zetten omdat het laat zien hoeveel ik beter ben geworden in coderen in het laatste
+                    jaar.</p>
+                <div class="popup__buttons">
+                    <a href="http://22288.hosts.ma-cloud.nl/bewijzenmap/p1.1/fro/opdracht4b/"
+                       class="article__button link--selected-none">Bekijk online</a>
+                </div>
+            </div>
+        </div>
     </div>
-<script src="scripts/modaalvenster.js"></script>
+    <script src="scripts/modaalvenster.js"></script>
 </main>
 <footer>
     <p>Copyright © 2017 Joshua van 't Kruis All Rights Reserved. </p>
-    <a href="https://www.linkedin.com/in/joshua-van-t-kruis-b58ba2150/"><img src="images/linkedin-logo.png" alt="LinkedIn image" class="footer__image"></a>
+    <a href="https://www.linkedin.com/in/joshua-van-t-kruis-b58ba2150/"><img src="images/linkedin-logo.png"
+                                                                             alt="LinkedIn image" class="footer__image"></a>
 </footer>
 </body>
 </html>

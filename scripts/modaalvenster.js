@@ -43,18 +43,32 @@ grayBackground.addEventListener('click', modaal.close);
 exitButton.addEventListener('click', modaal.close);
 
 var content_fanstille = document.getElementById('content_fanstille');
-//var inhoud2 = document.getElementById('inhoud2');
+var content_maanroosvis = document.getElementById('content_maanroosvis');
+var content_fotogallerij = document.getElementById('content_fotogallerij');
+var content_hallowereld = document.getElementById('content_hallowereld');
 var knop1 = document.getElementById('article_fanstille');
-//var knop2 = document.getElementById('k2');
+var knop2 = document.getElementById('article_maanroosvis');
+var knop3 = document.getElementById('article_fotogallerij');
+var knop4 = document.getElementById('article_hallowereld');
 
 content_fanstille.parentNode.removeChild(content_fanstille);
-//inhoud2.parentNode.removeChild(inhoud2);
+content_maanroosvis.parentNode.removeChild(content_maanroosvis);
+content_fotogallerij.parentNode.removeChild(content_fotogallerij);
+content_hallowereld.parentNode.removeChild(content_hallowereld);
 
 knop1.addEventListener('click', function () {
     modaal.open(content_fanstille);
 });
-/*
+
 knop2.addEventListener('click', function () {
-    modaal.open(inhoud2);
+    modaal.open(content_maanroosvis);
 });
-*/
+
+knop3.addEventListener('click', function () {
+    modaal.open(content_fotogallerij);
+});
+
+knop4.addEventListener('click', function () {
+    modaal.open(content_hallowereld);
+});
+

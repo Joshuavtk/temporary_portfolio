@@ -1,6 +1,7 @@
 //variables
 $text-color: #f9f9f9
 $main-color: rgba(75, 75, 75, 0.8)
+$main--color-selected: rgba(90, 90, 90, 0.8)
 $background-color: #272727
 $secondary-color: #e50914
 $title-font: "Lato", "Roboto", sans-serif
@@ -13,6 +14,7 @@ $min-width: '768px'
 
 //removing unnecessary padding
 @import "reset"
+@import "popup"
 
 main
   margin: auto 0
@@ -49,6 +51,9 @@ body
     font-family: $title-font
   &__image
     min-width: 100%
+  &:hover
+    background-color: $main--color-selected
+    cursor: pointer
 
 footer
   border-top: $main-color 2px solid
@@ -61,7 +66,6 @@ footer
 //screen sizes
 @media screen and (min-width: 668px)
   @import "desktop"
-  @import "popup"
 
 @media screen and (max-width: 667px)
   @import "mobile"
