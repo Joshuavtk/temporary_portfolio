@@ -2,19 +2,47 @@ article
   margin: 15px
   padding: 15px
 
+.introduction
+  margin: 15px
+  &__content
+    display: flex
+    width: 100%
+    p
+      width: 100%
+  &__image
+    width: 250px
+    height: 250px
+    box-shadow: 2px 2px $secondary-color
+    float: right
+
 
 main
   @media screen and (min-width: $min-width)
     width: 750px
     article
       width: 41%
+    .image--from
+      &-fanstille
+        padding: 25px 0
+      &-hallowereld
+        padding: 27px 0
 
   @media screen and (min-width: $medium-width)
     width: 970px
     article
       width: 43%
+    .image--from
+      &-fanstille
+        padding: 34.5px 0
+      &-hallowereld
+        padding: 36.5px 0
   @media screen and (min-width: $max-width)
     width: 1170px
     article
       width: 44.7%
+    .image--from
+      &-fanstille
+        padding: 43px 0
+      &-hallowereld
+        padding: 45px 0
   margin: auto

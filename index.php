@@ -14,12 +14,19 @@
 
 <header class="header">
     <h1 class="header__title title--size-big">Joshua van 't Kruis</h1>
-    <h3 class="header__title title--size-medium">Fullstack developer</h3>
+    <h3 class="header__title title--size-medium">Media developer</h3>
 </header>
 <main>
-    <div class="main__introduction">
-        <h1 class="main__title">About</h1>
-        <p>Hallo ik ben Lorem ipsum</p>
+    <h1 class="main__title">About</h1>
+    <div class="introduction">
+        <div class="introduction__content">
+            <p>
+                Hallo ik ben Joshua van 't Kruis, 17 jaar oud en volg Media development op het Mediacollege
+                Amsterdam.<br>
+
+            </p>
+            <img src="images/schoolfoto.jpg" class="introduction__image">
+        </div>
     </div>
 
     <h1 class="main__title">Projects</h1>
@@ -76,7 +83,7 @@
             <h2 class="article__title title--size-big">Foto Gallerij</h2>
             <h4 class="article__title title--size-medium">Front-end opdracht 9</h4>
             <img src="images/FotoGallerij-small.PNG"
-                 class="article__image image--from-maanroosvis" alt="Fotogallerij image">
+                 class="article__image image--from-fotogallerij" alt="Fotogallerij image">
         </article>
         <div id="content_fotogallerij" class="popup">
             <img src="images/FotoGallerij-large.PNG" alt="website preview Fotogallerij">
@@ -96,7 +103,7 @@
             <h2 class="article__title title--size-big">Hallo wereld</h2>
             <h4 class="article__title title--size-medium">Front-end opdracht 4</h4>
             <img src="images/HalloWereld-small.png"
-                 class="article__image image--from-maanroosvis" alt="Hallo wereld">
+                 class="article__image image--from-hallowereld" alt="Hallo wereld">
         </article>
         <div id="content_hallowereld" class="popup">
             <img src="images/HalloWereld-large.PNG" alt="website preview Hallo wereld">
