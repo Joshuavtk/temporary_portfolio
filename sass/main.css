@@ -20,7 +20,8 @@ main {
     display: inline-block;
     border-bottom: #e50914 1px solid; }
   main .wrapper {
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 2em; }
 
 body {
   background-color: #272727;
@@ -31,7 +32,7 @@ body {
 
 .header {
   background-color: #e50914;
-  padding: 2.5em 0;
+  padding: 3em 0;
   margin-bottom: 1em;
   width: 100%; }
   .header__title {
@@ -40,7 +41,8 @@ body {
   .header .title--size-big {
     font-size: 55px; }
   .header .title--size-medium {
-    font-size: 30px; }
+    font-size: 30px;
+    margin-top: 0.3em; }
 
 .article {
   background-color: rgba(75, 75, 75, 0.8);
@@ -132,8 +134,16 @@ footer {
     margin: 15px;
     padding: 15px; }
 
+  .header {
+    padding: 10vh 0;
+    margin-bottom: 2em; }
+    .header .title--size-big {
+      font-size: 75px; }
+    .header .title--size-medium {
+      font-size: 40px; }
+
   .introduction {
-    margin: 15px; }
+    margin: 15px 15px 2em; }
     .introduction__content {
       display: flex;
       width: 100%; }

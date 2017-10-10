@@ -2,8 +2,16 @@
   margin: 15px
   padding: 15px
 
+.header
+  padding: 10vh 0
+  margin-bottom: 2em
+  .title--size-big
+    font-size: 75px
+  .title--size-medium
+    font-size: 40px
+
 .introduction
-  margin: 15px
+  margin: 15px 15px 2em
   &__content
     display: flex
     width: 100%
@@ -24,8 +32,8 @@
     box-shadow: 2px 2px $secondary-color
     float: right
 
-
 main
+  margin: auto
   @media screen and (min-width: $min-width)
     width: 750px
     .article
@@ -35,7 +43,6 @@ main
         padding: 25px 0
       &-hallowereld
         padding: 27px 0
-
   @media screen and (min-width: $medium-width)
     width: 970px
     .article
@@ -54,4 +61,3 @@ main
         padding: 43px 0
       &-hallowereld
         padding: 45px 0
-  margin: auto
