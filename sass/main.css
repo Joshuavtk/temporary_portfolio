@@ -44,7 +44,22 @@ body {
 
 .article {
   background-color: rgba(75, 75, 75, 0.8);
-  box-shadow: 2px 2px #e50914; }
+  box-shadow: 2px 2px #e50914;
+  flex: 1 1 70%;
+  padding: 1em; }
+  .article__button {
+    line-height: 25px;
+    background-color: #272727;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-color: #272727;
+    display: inline-block;
+    font-size: 12px;
+    margin: 5px 0; }
+    .article__button:hover {
+      background-color: rgba(75, 75, 75, 0.8); }
   .article__title {
     font-family: "Lato", "Roboto", sans-serif; }
   .article__image {
@@ -61,9 +76,6 @@ body {
     max-width: 650px;
     width: 100%;
     height: 100%; }
-  .popup article {
-    flex: 1 1 70%;
-    padding: 1em; }
   .popup__text {
     padding: 0 10% 0 1em;
     font-size: 110%;
@@ -88,19 +100,6 @@ body {
   box-sizing: border-box;
   position: fixed;
   animation: grow 0.5s forwards; }
-  .modaal-window .article__button {
-    line-height: 25px;
-    background-color: #272727;
-    color: #fff;
-    font-weight: 400;
-    text-transform: uppercase;
-    padding: 5px 10px;
-    border-color: #272727;
-    display: inline-block;
-    font-size: 12px;
-    margin: 5px 0; }
-    .modaal-window .article__button:hover {
-      background-color: rgba(75, 75, 75, 0.8); }
 
 @keyframes grow {
   0% {
@@ -129,7 +128,7 @@ footer {
     margin: 5px; }
 
 @media screen and (min-width: 768px) {
-  article {
+  .article {
     margin: 15px;
     padding: 15px; }
 
@@ -160,7 +159,7 @@ footer {
   @media screen and (min-width: 768px) and (min-width: 768px) {
     main {
       width: 750px; }
-      main article {
+      main .article {
         width: 41%; }
       main .image--from-fanstille {
         padding: 25px 0; }
@@ -169,7 +168,7 @@ footer {
   @media screen and (min-width: 768px) and (min-width: 992px) {
     main {
       width: 970px; }
-      main article {
+      main .article {
         width: 43%; }
       main .image--from-fanstille {
         padding: 34.5px 0; }
@@ -178,7 +177,7 @@ footer {
   @media screen and (min-width: 768px) and (min-width: 1200px) {
     main {
       width: 1170px; }
-      main article {
+      main .article {
         width: 44.7%; }
       main .image--from-fanstille {
         padding: 43px 0; }
