@@ -46,8 +46,13 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+#intelliJ
 *.xml
 *.iml
+
+#Compiled sass files
 *.css.map
-*.css
+_*.css
+
+#Image files
 images/

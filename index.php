@@ -21,15 +21,22 @@
     <h1 class="main__title">Over</h1>
     <div class="introduction">
         <div class="introduction__content">
-            <p>
+            <div>
+                <p class="content__col col--num-1">
                 Hallo ik ben Joshua van 't Kruis, 17 jaar oud en volg Media development op het Mediacollege
                 Amsterdam.<br>
+                </p>
+                <span class="content__spacer"></span>
+                <p class="content__col col--num-2">
                 Voordat ik op deze opleiding zat had ik geen ervaring met coderen, maar na er mee gewerkt te hebben vond ik
                 coderen geweldig.<br>
+                </p>
+                <span class="content__spacer"></span>
+                <p class="content__col col--num-3">
                 Ik vind back-end het leukst om mee te werken maar ik ben ook goed in front-end. Mijn specialiteit is PHP.
                 Ik ben ook zeer gemotiveerd, ik ben bijvoorbeeld nu in mijn vrije tijd bezig met Laravel en Python.<br>
-
-            </p>
+                </p>
+            </div>
             <img src="images/schoolfoto.jpg" class="introduction__image">
         </div>
     </div>
@@ -77,7 +84,7 @@
                 <div class="popup__buttons">
                     <a href="https://github.com/RickHinfelaar/TheWallMaanRoosVis"
                        class="article__button link--selected-none" target="_blank">Github link</a>
-                    <a href="http://22288.hosts.ma-cloud.nl/bewijzenmap/p1.4/proj/Fanstille/"
+                    <a href="http://22288.hosts.ma-cloud.nl/bewijzenmap/p1.3/proj/MaanRoosVis/"
                        class="article__button link--selected-none" target="_blank">Bekijk online</a>
                 </div>
             </div>
