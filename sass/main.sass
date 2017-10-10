@@ -12,57 +12,13 @@ $max-width: '1200px'
 $medium-width: '992px'
 $min-width: '768px'
 
-//removing unnecessary padding
+//importing main files
 @import "reset"
+@import "body"
+@import "header"
+@import "article"
 @import "popup"
-
-main
-  margin: auto 0
-  .main__title
-    display: inline-block
-    border-bottom: $secondary-color 1px solid
-  .wrapper
-    width: 100%
-
-body
-  background-color: $background-color
-  color: $text-color
-  min-height: 100vh
-  display: flex
-  flex-direction: column
-
-.header
-  background-color: $secondary-color
-  padding: 2.5em 0
-  margin-bottom: 1em
-  width: 100%
-  &__title
-    font-family: $title-font
-    text-align: center
-  .title--size-big
-    font-size: 55px
-  .title--size-medium
-    font-size: 30px
-
-.article
-  background-color: $main-color
-  box-shadow: 2px 2px $secondary-color
-  &__title
-    font-family: $title-font
-  &__image
-    min-width: 100%
-  &:hover
-    background-color: $main--color-selected
-    cursor: pointer
-
-footer
-  text-align: center
-  padding: 20px 0
-  background-color: $secondary-color
-  .footer__image
-    width: 50px
-    height: 50px
-    margin: 5px
+@import "footer"
 
 //screen sizes
 @media screen and (min-width: $min-width)
